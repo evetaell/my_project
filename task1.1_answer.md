@@ -72,4 +72,26 @@ evetaell@evetaell-To-be-filled-by-O-E-M ~/work/project1 $ git status
 На ветке master
 нечего коммитить, нет изменений в рабочем каталоге
 
+## 8.
+git diff fileA.md
+diff --git a/fileA.md b/fileA.md
+index 0906b88..d3dce88 100644
+--- a/fileA.md
++++ b/fileA.md
+@@ -1 +1,2 @@
+-String 1
+\ No newline at end of file
++String 1
++String 2
+
+git rm fileB.md
+rm 'fileB.md'
+
+$ git hist
+* 56249b8 2017-07-30 | Change fileA, delete fileB (HEAD -> master) [Светлана Хмелева]
+* 4553ce3 2017-07-30 | Create fileA and fileB (project13/master) [Светлана Хмелева]
+* fdc80f9 2017-07-29 | Create file - task1.1_answer.md (ourPep/master) [Светлана Хмелева]
+
+$ git pull ourPep master
+
 

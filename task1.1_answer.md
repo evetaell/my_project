@@ -181,5 +181,27 @@ evetaell@evetaell-To-be-filled-by-O-E-M ~/work/project1 $ git hist
 * 4553ce3 2017-07-30 | Create fileA and fileB (project13/master) [Светлана Хмелева]
 * fdc80f9 2017-07-29 | Create file - task1.1_answer.md [Светлана Хмелева]
 
+во втором фикс правок
+
+cd /home/evetaell/work/project13/
+evetaell@evetaell-To-be-filled-by-O-E-M ~/work/project13 $ git add .
+evetaell@evetaell-To-be-filled-by-O-E-M ~/work/project13 $ git commit --amend -m "Change task1.1_answer"
+[master 6fc4de6] Change task1.1_answer
+ Date: Sun Jul 30 08:38:25 2017 +0400
+ 1 file changed, 110 insertions(+)
+
+git pull project13 master
+
+remote: Подсчет объектов: 3, готово.
+remote: Сжатие объектов: 100% (3/3), готово.
+remote: Total 3 (delta 2), reused 0 (delta 0)
+Распаковка объектов: 100% (3/3), готово.
+Из /home/evetaell/work/project13
+ * branch            master     -> FETCH_HEAD
+   6fc4de6..13106c2  master     -> project13/master
+Автослияние task1.1_answer.md
+КОНФЛИКТ (содержимое): Конфликт слияния в task1.1_answer.md
+Не удалось провести автоматическое слияние; исправьте конфликты и сделайте коммит результата.
+
 
 

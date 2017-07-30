@@ -191,12 +191,17 @@ evetaell@evetaell-To-be-filled-by-O-E-M ~/work/project13 $ git commit --amend -m
  1 file changed, 110 insertions(+)
 
 git pull project13 master
+
 remote: Подсчет объектов: 3, готово.
 remote: Сжатие объектов: 100% (3/3), готово.
-remote: Total 3 (delta 1), reused 0 (delta 0)
+remote: Total 3 (delta 2), reused 0 (delta 0)
 Распаковка объектов: 100% (3/3), готово.
 Из /home/evetaell/work/project13
  * branch            master     -> FETCH_HEAD
-   4553ce3..6fc4de6  master     -> project13/master
+   6fc4de6..13106c2  master     -> project13/master
+Автослияние task1.1_answer.md
+КОНФЛИКТ (содержимое): Конфликт слияния в task1.1_answer.md
+Не удалось провести автоматическое слияние; исправьте конфликты и сделайте коммит результата.
+
 
 
